@@ -1,0 +1,11 @@
+#!/usr/bin/env jruby
+
+$: << "lib"
+
+require "doc_image_extract"
+
+document = DocImageExtract::Document.new ARGV.shift
+exporter = DocImageExtract::Exporter.new
+document.pictures.each do |picture|
+  exporter.save picture
+end

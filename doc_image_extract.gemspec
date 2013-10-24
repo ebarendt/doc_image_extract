@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = DocImageExtract::VERSION
   spec.authors       = ["Eric Barendt"]
   spec.email         = ["ebarendt@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Extracts all images from a given Word document.}
+  spec.description   = %q{Extracts all images from a given Word document.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
