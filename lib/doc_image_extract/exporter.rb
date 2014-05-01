@@ -1,7 +1,9 @@
 module DocImageExtract
   class Exporter
     def save picture
-      File.write picture.suggest_full_file_name, picture.get_content
+      if picture.file_name
+        File.write picture.file_name, picture.data
+      end
     end
   end
 end

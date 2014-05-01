@@ -5,7 +5,7 @@ require 'doc_image_extract/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "doc_image_extract"
-  spec.version       = DocImageExtract::VERSION
+  spec.version       = "0.0.2"
   spec.authors       = ["Eric Barendt"]
   spec.email         = ["ebarendt@gmail.com"]
   spec.summary       = %q{Extracts all images from a given Word document.}
