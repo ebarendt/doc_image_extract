@@ -3,8 +3,8 @@ require "poi"
 module DocImageExtract
   module Reader
     class Xwpf
-      # java_import java.io.FileInputStream
-      # java_import org.apache.poi.xwpf.usermodel.XWPFDocument
+      java_import java.io.FileInputStream
+      java_import org.apache.poi.xwpf.usermodel.XWPFDocument
 
       attr_reader :file
 
